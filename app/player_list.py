@@ -58,3 +58,7 @@ class PlayerList: # Player list class
             return self._head.display(forward)
         else:
             return self._tail.display(forward)
+
+    def size(self):
+       list_size = 10
+       return list_size

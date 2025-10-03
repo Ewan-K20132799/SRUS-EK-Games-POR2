@@ -17,7 +17,9 @@ class PlayerListTest(unittest.TestCase):
     def test_is_empty(self):
         if app.player_node.LinkedPlayerNode is self:
             return True
-        return False
+
+        else:
+            return False
 
     def test_is_not_empty(self):
         if app.player_node.LinkedPlayerNode is not self:

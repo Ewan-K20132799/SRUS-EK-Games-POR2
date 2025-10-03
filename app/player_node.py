@@ -110,3 +110,7 @@ class LinkedPlayerNode: # Linked list
 
     if __name__ == "__main__":
         pass
+
+    @property
+    def current_node(self):
+        return self._current_node
